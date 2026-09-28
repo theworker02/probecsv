@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/probecsv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Probe numeric csv values, ranges, and human-readable units.",
+  "bin": {
+    "probecsv": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/probecsv.git"
+  },
+  "homepage": "https://theworker02.github.io/probecsv/",
+  "keywords": [
+    "probe",
+    "csv",
+    "number",
+    "cli",
+    "toolkit"
+  ]
+}
